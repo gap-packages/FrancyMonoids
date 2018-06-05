@@ -169,8 +169,8 @@ ArchiveFormats := ".tar.gz",
 ##  
 Persons := [
   rec( 
-    LastName      := "Pedro A.",
-    FirstNames    := "Garcia-Sanchez",
+    LastName      := "García-Sánchez",
+    FirstNames    := "Pedro A.",
     IsAuthor      := true,
     IsMaintainer  := true,
     Email         := "pedro@ugr.es",
@@ -183,8 +183,8 @@ Persons := [
     Institution   := "Universidad de Granada"
   ),
   rec( 
-    LastName      := "Andres",
-    FirstNames    := "Herrera-Poyatos",
+    LastName      := "Herrera-Poyatos",
+    FirstNames    := "Andrés",
     IsAuthor      := true,
     IsMaintainer  := true,
     Email         := "andreshp99@gmailcom",
@@ -197,8 +197,8 @@ Persons := [
     Institution   := "Universidad de Granada"
   ),
   rec( 
-    LastName      := "Manuel",
-    FirstNames    := "Martins",
+    LastName      := "Martins",
+    FirstNames    := "Manuel",
     IsAuthor      := true,
     IsMaintainer  := true,
     Email        := "manuelmachadomartins@gmail.com",
