@@ -5,19 +5,19 @@ description: |
     FrancyMonoids/A package to display commutative monoid objects with francy
 
 authors:
-    - name: Garcia-Sanchez Pedro A.
+    - name: Pedro A. García-Sánchez
       url: https://www.ugr.es/~pedro
-    - name: Herrera-Poyatos Andres
+    - name: Andrés Herrera-Poyatos
       url: https://github.com/andreshp
-    - name: Martins Manuel
+    - name: Manuel Martins
       url: http://github.com/mcmartins
 
 maintainers:
-    - name: Garcia-Sanchez Pedro A.
+    - name: Pedro A. García-Sánchez
       url: https://www.ugr.es/~pedro
-    - name: Herrera-Poyatos Andres
+    - name: Andrés Herrera-Poyatos
       url: https://github.com/andreshp
-    - name: Martins Manuel
+    - name: Manuel Martins
       url: http://github.com/mcmartins
 
 GAP: "4.9"
@@ -51,7 +51,7 @@ keywords: |
     graphs commutative monoids, trees commutative monoids, trees commutative monoids.
 citeas: |
     <p class='BibEntry'>
-    [<span class='BibKey'>AAM18</span>]   <b class='BibAuthor'>Pedro A., G.-S., Andres, H.-P. and Manuel, M.</b>,
+    [<span class='BibKey'>GHM18</span>]   <b class='BibAuthor'>García-Sánchez, P. A., Herrera-Poyatos, A. and Martins, M.</b>,
      <i class='BibTitle'>FrancyMonoids, FrancyMonoids/A package to display commutative monoid objects with francy,
              Version 0.1</i>
      (<span class='BibYear'>2018</span>)<br />
@@ -62,7 +62,8 @@ citeas: |
 
 bibtex: |
     @misc{ FrancyMonoids0.1,
-      author =           {Pedro A., G.-S. and Andres, H.-P. and Manuel, M.},
+      author =           {Garc{\a'\i}a-S{\a'a}nchez,  P. A. and Herrera-Poyatos,
+                          A. and Martins, M.},
       title =            {{FrancyMonoids},  FrancyMonoids/A  package  to display
                           commutative monoid objects with francy, {V}ersion 0.1},
       month =            {Jun},
@@ -73,6 +74,6 @@ bibtex: |
                           {}{}{}\texttt{francymonoids}}},
       keywords =         {graphs commutative monoids; trees commutative monoids;
                           trees commutative monoids},
-      printedkey =       {AAM18}
+      printedkey =       {GHM18}
     }
 
