@@ -22,6 +22,6 @@ This package requires [francy](https://github.com/mcmartins/francy) and [numeric
 - `DrawTreeOfGluingsOfNumericalSemigroup`
 - `DrawTreeOfSonsOfNumericalSemigroup`
 
-## Examples
+## Example
 
-See the examples in the jupyter notebook or in Examples directory.
+See the example in this [notebook](https://github.com/pedritomelenas/francy-monoids/blob/master/Examples/francy-monoids.ipynb).
