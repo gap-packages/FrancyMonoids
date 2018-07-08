@@ -260,7 +260,7 @@ function(s,l,generators)
             shp:=Shape(ShapeType!.CIRCLE, lbl);
             SetSize(shp,5);
             Add(graphTreee,shp);
-            SetParentNode(shp,n);
+            SetParentShape(shp,n);
             sonsf(d,shp,lv-1);
         od;
         if desc<>[] then
@@ -444,7 +444,7 @@ function(s, expand...)
             shape := Shape(ShapeType!.SQUARE, label);
             SetSize(shape,1);            
             Add(tree, shape);
-            SetParentNode(shape, node);            
+            SetParentShape(shape, node);            
             
             # Plot the two numerical semigroups involved
             gen1 := p[1] / Gcd(p[1]);
@@ -456,8 +456,8 @@ function(s, expand...)
             
             Add(tree, son1);
             Add(tree, son2);
-            SetParentNode(son1, shape);
-            SetParentNode(son2, shape);
+            SetParentShape(son1, shape);
+            SetParentShape(son2, shape);
             
             rgluings(NumericalSemigroup(gen1), son1);            
             rgluings(NumericalSemigroup(gen2), son2);            
