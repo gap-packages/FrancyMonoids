@@ -306,7 +306,7 @@ Dependencies := rec(
   # insensitive, exact version denoted with '=' prepended to version string.
   # without these, the package will not load
   # NeededOtherPackages := [["GAPDoc", "1.5"]],
-  NeededOtherPackages := [["GAPDoc", "1.5"], ["francy", "0.6"], ["NumericalSgps", "1.1.6"]],
+  NeededOtherPackages := [["GAPDoc", "1.5"], ["francy", "0.8"], ["NumericalSgps", "1.1.6"]],
 
   # list of pairs [package name, version] as above,
   # these package are will be loaded if they are available,
