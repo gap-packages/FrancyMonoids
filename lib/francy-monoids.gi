@@ -54,8 +54,6 @@ function(f)
 
     graph:=Graph(GraphType.UNDIRECTED);
     SetSimulation(graph,true);
-    SetDrag(graph,true);
-    SetShowNeighbours(graph,true);
     nf:=Length(f);
     fs:=[];
     for i in [1..nf] do 
@@ -100,9 +98,7 @@ function(f)
     local graph, canvas, fs, c, nf, i, p;
     
     graph:=Graph(GraphType.UNDIRECTED);
-    SetShowNeighbours(graph,true);
     SetSimulation(graph,true);
-    SetDrag(graph,true);
     nf:=Length(f);
     fs:=[];
     for i in [1..nf] do 
@@ -136,7 +132,6 @@ function(n,s)
     msg:=Filtered(MinimalGenerators(s), g->n-g in s);
     graph:=Graph(GraphType.UNDIRECTED);
     SetSimulation(graph,true);
-    SetDrag(graph,true);
     nv:=Length(msg);
     msgs:=[];
     for i in [1..nv] do 
@@ -161,7 +156,6 @@ function(n,s)
     msg:=Filtered(MinimalGenerators(s), g->n-g in s);
     graph:=Graph(GraphType.UNDIRECTED);
     SetSimulation(graph,true);
-    SetDrag(graph,true);
     nv:=Length(msg);
     msgs:=[];
     for i in [1..nv] do 
@@ -206,7 +200,6 @@ InstallGlobalFunction(DrawOverSemigroupsNumericalSemigroup, function(s)
     n:=Length(ov);
     graphHasse := Graph(GraphType.DIRECTED);
     SetSimulation(graphHasse,true);
-    SetDrag(graphHasse,true);
     c:=Cartesian([1..n],[1..n]);
     c:=Filtered(c, p-> p[2]<>p[1]);
     c:=Filtered(c, p-> IsSubset(ov[p[1]],ov[p[2]]));
@@ -375,7 +368,6 @@ function(s, A, t...)
     # Initialize the graph
     graphHasse := Graph(GraphType.DIRECTED);
     SetSimulation(graphHasse, true);
-    SetDrag(graphHasse, true);
     
     # Build the binary relation and apply the hasse function
     A := Set(A);
