@@ -360,7 +360,7 @@ function(s, A, t...)
             message := FrancyMessage(Concatenation(String(x)," is not an element of the numerical semigroup"));
         fi;
             
-        SetId(message, Concatenation("message-for-", String(x)));
+        SetFrancyId(message, Concatenation("message-for-", String(x)));
         Add(canvas, message);
         return Draw(canvas);
     end;
