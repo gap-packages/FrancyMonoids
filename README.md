@@ -25,3 +25,10 @@ This package requires [francy](https://github.com/mcmartins/francy) and [numeric
 ## Example
 
 See the example in this [notebook](https://github.com/pedritomelenas/francy-monoids/blob/master/Examples/francy-monoids.ipynb).
+
+## License
+
+FrancyMonoids is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 2 of the License, or (at your
+option) any later version.

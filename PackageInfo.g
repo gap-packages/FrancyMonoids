@@ -44,7 +44,8 @@ Subtitle := "FrancyMonoids/A package to display commutative monoid objects with 
 Version := "0.1",
 ##  Release date of the current version in dd/mm/yyyy format.
 ##
-Date := "04/06/2018",
+Date := "04/06/2018", # dd/mm/yyyy format
+License := "GPL-2.0-or-later",
 ##  Optional: if the package manual uses GAPDoc, you may duplicate the 
 ##  version and the release date as shown below to read them while building
 ##  the manual using GAPDoc facilities to distibute documents across files.
