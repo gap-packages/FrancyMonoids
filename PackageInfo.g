@@ -96,7 +96,7 @@ PackageDoc := rec(
 
 Dependencies := rec(
   GAP := "4.9",
-  NeededOtherPackages := [["GAPDoc", "1.5"], ["francy", "0.12"], ["NumericalSgps", "1.1.6"]],
+  NeededOtherPackages := [["francy", "0.12"], ["NumericalSgps", "1.1.6"]],
   SuggestedOtherPackages := [],
   ExternalConditions := []
 ),
