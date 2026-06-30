@@ -1,6 +1,6 @@
 #############################################################################
 ##  
-##  PackageInfo.g for the package The FranyMonoids package  
+##  PackageInfo.g for the FrancyMonoids package
 ##                                                    Pedro A. Garcia-Sanchez
 #W                                                    Andres Herrera-Poyatos
 ##                                                    Manuel Martins
@@ -8,7 +8,7 @@
 SetPackageInfo( rec(
 
 PackageName := "FrancyMonoids",
-Subtitle := "FrancyMonoids/A package to display commutative monoid objects with francy",
+Subtitle := "A package to display commutative monoid objects with francy",
 Version := "0.1",
 Date := "04/06/2018", # dd/mm/yyyy format
 License := "GPL-2.0-or-later",
@@ -90,7 +90,7 @@ PackageDoc := rec(
   HTMLStart := "doc/chap0_mj.html",
   PDFFile   := "doc/manual.pdf",
   SixFile   := "doc/manual.six",
-  LongTitle := "FranyMonois/A GAP Package to draw monoid objects with francy",
+  LongTitle := "A GAP Package to draw monoid objects with francy",
 ),
 
 

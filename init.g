@@ -1,6 +1,6 @@
 #############################################################################
 ##
-#W    init.g        The FranyMonoids package          Pedro A. Garcia-Sanchez
+#W    init.g        The FrancyMonoids package         Pedro A. Garcia-Sanchez
 #W                                                    Andres Herrera-Poyatos
 ##                                                    Manuel Martins
 
